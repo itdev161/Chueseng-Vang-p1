@@ -1,0 +1,28 @@
+{
+  "name": "chueseng-vang-p1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itdev161/Chueseng-Vang-p1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itdev161/Chueseng-Vang-p1/issues"
+  },
+  "homepage": "https://github.com/itdev161/Chueseng-Vang-p1#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
