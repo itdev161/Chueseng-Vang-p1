@@ -6,22 +6,22 @@ const mongoose = require('mongoose');
 const app = express();
 
 //Connect to MongoDB stopped here ep 8 12:23
-//const dbURI = 'mongodb+srv//Project123:Project1234@cluster0.emg2u.mongodb.net/Project?retryWrites=true&w=majority';
+//const dbURI = "mongodb+srv//Project123:Project1234@cluster0.emg2u.mongodb.net/Project?retryWrites=true&w=majority";
 //mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
 //   .then((result) => console.log('Connected to db'))
 //   .catch((err) => console.log(err));
 
 app.set('view engine', 'ejs');
 
-app.listen(3000);
-
+app.listen(3000); 
+ 
 
 app.use(express.static('public'));
 app.use(morgan('dev'));
 
 app.get('/', (req, res) => 
 {
-    const list = [
+    const list = [              
         {title: 'Eggs'},
         {title: 'Bread'},
         {title: 'Milk'},
